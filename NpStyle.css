@@ -1,0 +1,26 @@
+body {
+    background-color: #000;    
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    position: absolute;
+    color: greenyellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+@media(max-width:450px){
+  h1 {
+    position: absolute;
+    color: greenyellow;
+    top: 200%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    font-size: 80px;
+  }
+}
