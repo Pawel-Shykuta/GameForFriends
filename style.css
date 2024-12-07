@@ -26,6 +26,8 @@ body {
     border-radius: 50%;
     top: 200px;
     left: 50px;
+
+    transition: top 0.3s ease-out;
   }
   #bird::before{
     content: '';
